@@ -14,7 +14,7 @@
                             .then(() => {
                                 MSJR();
                                 console.log("Fecha de acceso registrada en Firestore");
-                                window.location.href ="index.html"  
+                                window.location.href ="index-adm.html"  
                             })
                             .catch((error) => {
                                 console.error("Error al registrar fecha de acceso en Firestore: ", error);
